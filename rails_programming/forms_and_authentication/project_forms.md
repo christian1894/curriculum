@@ -75,7 +75,6 @@ That looks a whole lot like what you normally see when Rails does it, right?
 6. Implement a private method at the bottom called `user_params` which will `permit` and `require` the proper fields (see the [Controllers Lesson](/courses/ruby-on-rails/lessons/controllers) for a refresher).
 7. Add a new `::new` User line which makes use of that new whitelisting params method.
 5. Submit your form now.  It should work marvelously (once you debug your typos)!
-
 #### Railsy Forms with `#form_tag`
 
 Now we'll start morphing our form into a full Rails form using the `#form_tag` and `#*_tag` helpers.  There's actually very little additional help that's going on and you'll find that you're mostly just renaming HTML tags into Rails tags.
@@ -245,6 +244,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Timework's Solution](https://github.com/Timework/re-former)
 * [Bendee's Solution](https://github.com/bendee48/rails-reformer)
 * [Robert Suazo's Solution](https://github.com/rsuazo/re-former)
+* [Christian Paez's Solution](https://github.com/christian1894/re-former-odin-project-rails)
 
 </details>
 
